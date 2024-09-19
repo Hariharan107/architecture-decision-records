@@ -1,6 +1,6 @@
 # Use GitHub as main hub for the Opinionated Digital Center
 
-* Status: accepted
+* Status: rejected
 * Date: 2020-05-06
 
 ## Context and Problem Statement
