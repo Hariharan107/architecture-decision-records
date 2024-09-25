@@ -11,12 +11,10 @@ We need to test the creation of a new markdown file in the ADR structure. This t
 
 | Option                      | Pros                                      | Cons                                    |
 |-----------------------------|-------------------------------------------|-----------------------------------------|
-| Use GitHub API              | - Easy to use                            | - Requires authentication               |
-|                             | - Good documentation                      | - Rate limits can apply                 |
-| Use Azure API               | - Scalable                                | - More complex setup                    |
-|                             | - Integrates with Azure services          | - May have higher costs                  |
-| Manual Creation             | - Full control                            | - Time-consuming                        |
-|                             | - No dependency on third-party APIs      | - More error-prone                       |
+| Use GitHub API              |  Easy to use                              | Requires authentication               |
+| Use Azure API               |  Scalable                                 | More complex setup                    |
+| Manual Creation             |  Full control                             | Time-consuming                        |
+
 
 
 ## Decision Outcome
