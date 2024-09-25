@@ -9,9 +9,11 @@ We need to test the creation of a new markdown file in the ADR structure. This t
 
 ## Considered Options
 
-* Use GitHub API for file creation
-* Use Azure API for file creation
-* Manual file creation and commit
+| Option                      | Description                                  |
+|-----------------------------|----------------------------------------------|
+| Use GitHub API              | For file creation                            |
+| Use Azure API               | For file creation                            |
+| Manual file creation        | Create and commit manually                  |
 
 ## Decision Outcome
 
@@ -19,10 +21,14 @@ Chosen option: "Use GitHub API for file creation", because it allows automation 
 
 ### Positive Consequences
 
-* The process can be automated and integrated into workflows.
-* It helps in maintaining consistency and reduces manual errors.
+| Consequence                                      |
+|--------------------------------------------------|
+| The process can be automated and integrated into workflows. |
+| It helps in maintaining consistency and reduces manual errors. |
 
 ### Negative Consequences
 
-* Requires correct permissions and access tokens.
-* API rate limits can be a constraint in some cases.
+| Consequence                                      |
+|--------------------------------------------------|
+| Requires correct permissions and access tokens.   |
+| API rate limits can be a constraint in some cases. |
