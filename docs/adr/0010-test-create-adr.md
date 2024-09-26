@@ -1,6 +1,6 @@
 # Selecting a Database for Our Microservices Architecture
 
-- Status: proposed
+- Status: Proposed
 - Date: 26 September 2024
 
 ## Context and Problem Statement
