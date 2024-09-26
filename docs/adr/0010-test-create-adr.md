@@ -18,7 +18,7 @@ We need to choose an appropriate database system that can support our microservi
 
 ## Decision Outcome
 
-The selected option is "**PostgreSQL**", based on the following key decision criteria: Scalability, performance, data consistency, ecosystem support, and compatibility with our existing tech stack..
+The selected option is **PostgreSQL**, based on the following key decision criteria: Scalability, performance, data consistency, ecosystem support, and compatibility with our existing tech stack..
 
 ## Links
 
