@@ -1,4 +1,4 @@
-# Selecting a Database for Our Microservices Architecture
+# **Selecting a Database for Our Microservices Architecture**
 
 - Status: proposed
 - Date: 26 September 2024
