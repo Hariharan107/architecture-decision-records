@@ -15,6 +15,7 @@ We need to choose an appropriate database system that can support our microservi
 | MongoDB | Flexible schema, horizontal scalability, good performance for read-heavy workloads, native support for JSON-like documents. | Eventual consistency by default, less suitable for complex transactions, larger storage requirements. |
 | Apache Cassandra | Excellent scalability and performance for write-heavy workloads, highly available, good for time-series data. | Limited support for complex queries, eventual consistency, steeper learning curve. |
 | Amazon DynamoDB | Fully managed, auto-scaling, low latency, serverless-friendly, good for microservices. | Vendor lock-in, can be expensive for high-volume workloads, limited querying capabilities compared to SQL databases |
+****
 
 ## Decision Outcome
 
@@ -24,6 +25,7 @@ The selected option is **PostgreSQL**, based on the following key decision crite
 
 * [Official PostgreSQL website](https://www.postgresql.org/)
 * [AWS blog on microservices with PostgreSQL](https://aws.amazon.com/blogs/database/building-microservices-with-amazon-rds-and-amazon-aurora/)
+
 
 ## Appendix
 
